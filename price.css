@@ -1,0 +1,66 @@
+.price{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	max-width:1400px;
+	min-height:850px;
+	height:auto;
+	background:#fff;
+	border-radius:10px;
+}
+.price h1{
+	padding:10px 0px;
+	padding-left:20px;
+	color:#fff;
+	font:600 36px 'Exo 2', sans-serif;
+	background:#13594e;
+	border-radius:10px;
+}
+.tabl{
+	padding:50px 100px;
+}
+.tabl table{
+	width:100%;
+}
+.tabl table tr{
+	transition:1s;
+}
+.tabl table tr:hover{
+	cursor:pointer;
+	transform:scale(1.05);
+}
+.tabl table .zagg:hover{
+	transform:none;
+}
+
+
+.tabl table tr th{
+	font:600 20px/30px 'Exo 2', sans-serif;
+	min-width:200px;
+	height:50px;
+	border-bottom:1px solid black;
+	margin-bottom:20px;
+}
+
+.tabl table tr .lef{
+	text-align:left;
+	padding-left:20px;
+}
+.tabl table tr td{
+	padding-left:20px;
+	min-width:200px;
+	font:400 18px/40px 'Exo 2', sans-serif;
+	vertical-align:middle;
+	text-align:center;
+}
+.tabl table tr .size{
+	text-align:center;
+}
+.tabl table .colo1{
+	
+	background:#49948852;
+}
+.tabl table .colo2{
+	
+	background:#fff;
+}
